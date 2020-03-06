@@ -4,9 +4,17 @@
 
 ### University of Maryland
 
+## Dependencies
+* numpy
+* copy
+* math
+* matplotlib.pyplot
+* cv2 (version 3.3)
+* time
+
 ## Overview
 
-Project 2 has two python scripts that generates a 2D map with obstacles and finds a path to travel from a user-defined start and end point. __BOTH SCRIPTS REQUIRE PYTHON2 TO RUN. PYTHON3 WILL NOT WORK.__ Python 2.7 was used to test the scripts. One script is used for a point robot and the other is used for a rigid robot that has a defined radius and clearance. The code is organized in the following sections:
+Project 2 has two python scripts that generates a 2D map with obstacles and finds a path to travel from a user-defined start and end point. __BOTH SCRIPTS REQUIRE PYTHON2.7 TO RUN. PYTHON3 WILL NOT WORK.__ Python 2.7 was used to test the scripts. One script is used for a point robot and the other is used for a rigid robot that has a defined radius and clearance. The code is organized in the following sections:
 
 1. Libraries
 2. Maps
@@ -16,15 +24,15 @@ Project 2 has two python scripts that generates a 2D map with obstacles and find
 6. Path Generation
 
 ## How to run for point robot
-
+```
 $ git clone https://github.com/theJaafro/ENPM661-Project2-Group38.git
-$ cd ENPM661-Project2-Group38/
+$ cd ENPM661-Project2-Group38
 $ python2 Dijkstra_point.py
-
+```
 ## How to run rigid robot
-
+```
 $ python2 Dijkstra_rigid.py
-
+```
 ## Section 1: Libraries
 
 The libraries imported for this project are:
